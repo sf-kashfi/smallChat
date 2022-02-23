@@ -1,0 +1,58 @@
+server.py:::::
+basu
+813
+
+
+
+
+
+
+sirius@sirius-Aspire-F5-573G:~/Desktop/pr/project/ieproject$ python3 manage.py runserver 8000
+
+
+
+
+curl -XGET --header "Content-type: application/json" http://localhost:8000/api/myget/{{name}}
+
+curl -XGET --header "Content-type: application/json" http://localhost:8000/api/myupdate/{{name}}
+
+curl -XGET --header "Content-type: application/json" http://localhost:8000/api/mydel/{{name}}
+
+
+ای \ی ای:
+کتبخانه DRF
+‫‪endpoint‬‬ ‫تا‬ ‫سه‬
+
+
+
+سشن:
+‫‪authentication‬‬ ‫سیستم‬ ‫توسط‬ ‫ها‬ ‫‪session‬‬
+‫‪ieproject/ieproject/urls.py‬‬ ‫فایل‬ ‫در‬ ‫رو‬ ‫لاگین‬ ‫های‬ ‫‪url‬‬
+
+
+رباست:
+‫خاص‬ ‫های‬ ‫محدودیت‬ ‫ها‪،‬‬ ‫فیلد‬ ‫همه‬ ‫برای‬ ‫‪ieproject/employees/models.py‬‬
+
+
+محدودیت:
+‫‪max_length=150‬‬ ‫طبق‬ ‫‪name‬‬
+
+
+
+پایگاه داده:
+‫‪ieproject/employees/models.py‬‬
+
+‫‪url‬‬:
+‫‪ieproject/employees/urls.py‬‬
+
+
+‫‪validator‬‬:
+‫‪ieproject/employees/validators.py‬‬
+
+‫‪view‬‬ ‫و‬ ‫منطق‬:
+‫‪ieproject/employees/views.py‬‬
+
+
+‫‪ieproject/employees/file.js‬‬ ‫‪:‬‬ ‫اسکریپت‬ ‫جاوا‬ ‫‪validation‬‬
+‫‪ieproject/api/serializers.py‬‬ ‫‪:‬‬ ‫‪api‬‬ ‫های‬ ‫‪serializer‬‬
+‫‪ieproject/api/urls.py‬‬ ‫‪:‬‬ ‫‪api‬‬ ‫های‬ ‫‪url‬‬

@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Material Icon';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/googleicon.woff2") format('woff2');
+
+}
+.icon
+{
+    font-family: "Material Icon";
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+.arrow-icon{
+    font-family: "Material Icon";
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+.mini-arrow-icon{
+    font-family: "Material Icon";
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+@media only screen and (max-width: 887px){
+    .arrow-icon{
+        display: none;
+    }
+
+    .mini-arrow-icon{
+        display: inline-block;
+        position: absolute;
+        left: 0px;
+    }
+}
